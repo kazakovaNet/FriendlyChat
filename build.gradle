@@ -17,9 +17,9 @@ buildscript {
 
 allprojects {
     repositories {
+        google() // Google's Maven repository
         jcenter()
         mavenLocal()
-        google() // Google's Maven repository
     }
 }
 
